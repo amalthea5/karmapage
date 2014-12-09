@@ -238,6 +238,7 @@ h5 {
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 .social hr {
