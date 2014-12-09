@@ -52,12 +52,9 @@ Test Styles
 ******************/
 
 body {
-	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 }
-div {
-	border: 1px solid Chocolate;
-}
+
 
 /* Navigation Section */
 
@@ -227,6 +224,7 @@ h5 {
 	font-size: 0.9rem;
 	font-weight: 300;
 	color: #838994;
+	text-align: center;
 }
 
 .social .icons > li {
@@ -238,6 +236,12 @@ h5 {
 	border: 1 px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebed;
+	margin: 1.313rem 0;
 }
 
 .social .twitter {
