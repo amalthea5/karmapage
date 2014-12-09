@@ -63,24 +63,15 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-}
-
-
-
-.content {
-	padding: 0px 15px;
-	margin: 0 auto;
-	width: 757px;
-	margin: 0 auto;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .logo {
@@ -114,6 +105,19 @@ li {
 	color: #4c5058;
 	font-weight: 600;
 }
+
+/* General Content Div Style */
+
+.content {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 757px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
 
 /*Introduction Styling*/
 
@@ -165,4 +169,42 @@ li {
 button:hover{
 	cursor: pointer;
 	background-color: chocolate;
+}
+
+/* Cases Styles */
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+	display: block;
+}
+
+/* .cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	styles to assist with debugging
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+} */
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.876rem;
+}
+
+ul.devices {
+	  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
