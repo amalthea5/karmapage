@@ -255,3 +255,7 @@ h5 {
 .social .instagram {
 	color: #3f729b;
 }
+
+li {
+	float: right;
+}
